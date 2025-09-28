@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/**/*.test.js --timeout=200000 --reporter mochawesome" 
+    "test": "mocha ./test/**/*.test.js --timeout=200000 --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^6.2.0",
+    "dotenv": "^17.2.2",
     "mocha": "^11.7.2",
     "mochawesome": "^7.1.4",
     "supertest": "^7.1.4"
